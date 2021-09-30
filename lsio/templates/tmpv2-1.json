@@ -57,7 +57,7 @@
 				"Music Server"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png",
+			"logo": "https://github.com/SelfhostedPro/selfhosted_templates/blob/master/Images/airsonic-logo.png",
 			"image": "linuxserver/airsonic:latest",
 			"env": [
 				{
