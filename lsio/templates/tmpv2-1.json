@@ -49,6 +49,30 @@
 		},
 		{
 			"type": 1,
+			"title": "Gitlab CE",
+			"note": "Default username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/omnibus/docker/README.html#after-starting-a-container\" target=\"_blank\">Gitlab documentation</a> to get started.",
+			"categories": [
+				"development",
+				"project-management"
+			],
+			"platform": "linux",
+			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png",
+			"image": "linuxserver/adguardhome-sync:latest",
+			"ports": [
+				"80/tcp",
+				"443/tcp",
+				"22/tcp"
+			],
+			"volumes": [
+			{
+				"container": "/etc/gitlab",
+				"container": "/var/opt/gitlab"
+				"container": "/var/log/gitlab"
+			}
+			]
+		},
+		{		
+			"type": 1,
 			"title": "Airsonic",
 			"name": "Airsonic",
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
