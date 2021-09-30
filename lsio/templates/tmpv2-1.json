@@ -65,11 +65,15 @@
 			],
 			"volumes": [
 			{
-				"container": "/etc/gitlab",
-				"container": "/var/opt/gitlab",
-				"container": "/var/log/gitlab"
+				"container": "/etc/gitlab"
 			},
-			]
+			{ 
+				"container": "/var/opt/gitlab"
+			},
+			{
+				"container": "/var/log/gitlab"
+			}
+		]
 		},
 		{		
 			"type": 1,
