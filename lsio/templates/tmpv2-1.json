@@ -68,7 +68,7 @@
 				"container": "/etc/gitlab",
 				"container": "/var/opt/gitlab",
 				"container": "/var/log/gitlab"
-			}
+			},
 			]
 		},
 		{		
