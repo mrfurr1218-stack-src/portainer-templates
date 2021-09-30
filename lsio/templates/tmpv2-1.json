@@ -982,7 +982,7 @@
 				"Media"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-git.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/lsio/images/daapd.png",
 			"image": "linuxserver/daapd:latest",
 			"network": "host",
 			"env": [
