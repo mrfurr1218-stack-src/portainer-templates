@@ -1070,7 +1070,7 @@
 				"Productivity"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/lsio/images/davos.png",
 			"image": "linuxserver/davos:latest",
 			"env": [
 				{
