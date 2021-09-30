@@ -1299,7 +1299,7 @@
 				"Productivity"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/shirosaidev/diskover/master/docs/diskover.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/lsio/images/diskover-alt.png",
 			"image": "linuxserver/diskover:latest",
 			"env": [
 				{
