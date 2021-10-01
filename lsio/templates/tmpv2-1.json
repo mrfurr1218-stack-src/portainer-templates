@@ -56,7 +56,7 @@
 				"project-management"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
 			"image": "linuxserver/adguardhome-sync:latest",
 			"ports": [
 				"80/tcp",
