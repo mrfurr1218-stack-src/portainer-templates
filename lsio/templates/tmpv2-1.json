@@ -5,18 +5,20 @@
 			"type": 1,
 			"title": "Registry",
 			"name": "Registry",
-			"note": "",
+			"note": "This image contains an implementation of the Docker Registry HTTP API V2 for use with Docker 1.6+.",
 			"description": "The Docker Registry 2.0 implementation for storing and distributing Docker images.",
 			"categories": [
 				"docker"
 			],			
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
-			"image": "registry:latest",
+			"image": "registry:latest"
 		},
 		{
 			"type": 1,
 			"title": "Nginx",
+			"name": "Nginx",
+			"note": "Official build of Nginx.",
 			"description": "High performance web server",
 			"categories": [
 				"webserver"
@@ -37,7 +39,6 @@
 			]
 		},
 		{
-
 			"type": 1,
 			"title": "Adguardhome-sync",
 			"name": "Adguardhome-sync",
