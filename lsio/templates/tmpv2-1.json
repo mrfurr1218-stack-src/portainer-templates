@@ -3339,7 +3339,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Mariadb is one of the most popular database servers. Made by the original developers of MySQL.",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png",
+			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/mariadb-icon.png",
 			"image": "linuxserver/mariadb:latest",
 			"env": [
 				{
