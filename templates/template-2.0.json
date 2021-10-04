@@ -1048,7 +1048,7 @@
 				"Media"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/lsio/images/daapd.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/owntone-icon.png",
 			"image": "linuxserver/daapd:latest",
 			"network": "host",
 			"env": [
@@ -1365,7 +1365,7 @@
 				"Productivity"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/diskover-red-icon.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/diskover-icon-alt.png",
 			"image": "linuxserver/diskover:latest",
 			"env": [
 				{
