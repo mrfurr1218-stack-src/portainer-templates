@@ -407,7 +407,7 @@
 				"Research"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/boinc_logo.png",
 			"image": "linuxserver/boinc:latest",
 			"env": [
 				{
