@@ -2296,7 +2296,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Habridge",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/bwssytems/ha-bridge/master/src/main/resources/public/img/favicon.ico",
+			"logo": "https://github.com/mrfurr1218-stack-src/portainer-templates/main/images/habridge-icon.png",
 			"image": "linuxserver/habridge:latest",
 			"env": [
 				{
