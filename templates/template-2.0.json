@@ -1136,7 +1136,7 @@
 				"Productivity"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/lsio/images/davos.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/davos.png",
 			"image": "linuxserver/davos:latest",
 			"env": [
 				{
