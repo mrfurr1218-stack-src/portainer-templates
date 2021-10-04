@@ -2202,7 +2202,7 @@
 				"Web Platform"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/grav-logo.png",
 			"image": "linuxserver/grav:latest",
 			"env": [
 				{
