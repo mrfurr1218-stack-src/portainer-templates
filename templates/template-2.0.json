@@ -4241,7 +4241,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Nzbget is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.",
 			"platform": "linux",
-			"logo": "https://github.com/mrfurr1218-stack-src/portainer-templates/blob/main/images/nzbget-icon.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/nzbget-icon.png",
 			"image": "linuxserver/nzbget:latest",
 			"env": [
 				{
