@@ -2535,7 +2535,7 @@
 				"Documentation"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/hedgedoc-icon.png",
 			"image": "linuxserver/hedgedoc:latest",
 			"env": [
 				{
@@ -2777,7 +2777,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Jackett and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/jakett-logo.png",
 			"image": "linuxserver/jackett:latest",
 			"env": [
 				{
