@@ -15,30 +15,7 @@
 			"image": "registry:latest"
 		},
 		{
-			"type": 1,
-			"title": "Nginx",
-			"name": "Nginx",
-			"note": "Official build of Nginx.",
-			"description": "High performance web server",
-			"categories": [
-				"webserver"
-			],
-			"platform": "linux",
-			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/nginx.png",
-			"image": "nginx:latest",
-			"ports": [
-				"80/tcp",
-				"443/tcp"
-			],
-			"volumes": [{
-					"container": "/etc/nginx"
-				},
-				{
-					"container": "/usr/share/nginx/html"
-				}
-			]
-		},
-		{
+
 			"type": 1,
 			"title": "Adguardhome-sync",
 			"name": "Adguardhome-sync",
@@ -85,36 +62,7 @@
 			"restart_policy": "unless-stopped"
 		},
 		{
-			"type": 1,
-			"title": "Gitlab CE",
-			"note": "Default username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/omnibus/docker/README.html#after-starting-a-container\" target=\"_blank\">Gitlab documentation</a> to get started.",
-			"description": "The GitLab Docker images are monolithic images of GitLab running all the necessary services in a single container",
-			"categories": [
-				"development",
-				"project-management"
-			],
-			"platform": "linux",
-			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
-			"image": "linuxserver/adguardhome-sync:latest",
-			"ports": [
-				"80/tcp",
-				"443/tcp",
-				"22/tcp"
-			],
-			"volumes": [
-			{
-				"container": "/etc/gitlab"
-			},
-			{ 
-				"container": "/var/opt/gitlab"
-			},
-			{
-				"container": "/var/log/gitlab"
-			}
-		]
-		},
-		{		
-			"type": 1,
+         		"type": 1,
 			"title": "Airsonic",
 			"name": "Airsonic",
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
@@ -2223,6 +2171,36 @@
 		},
 		{
 			"type": 1,
+			"title": "Gitlab CE",
+			"note": "Default username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/omnibus/docker/README.html#after-starting-a-container\" target=\"_blank\">Gitlab documentation</a> to get started.",
+			"description": "The GitLab Docker images are monolithic images of GitLab running all the necessary services in a single container",
+			"categories": [
+				"development",
+				"project-management"
+			],
+			"platform": "linux",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
+			"image": "linuxserver/adguardhome-sync:latest",
+			"ports": [
+				"80/tcp",
+				"443/tcp",
+				"22/tcp"
+			],
+			"volumes": [
+			{
+				"container": "/etc/gitlab"
+			},
+			{ 
+				"container": "/var/opt/gitlab"
+			},
+			{
+				"container": "/var/log/gitlab"
+			}
+		]
+		},
+		{		
+	
+			"type": 1,
 			"title": "Grav",
 			"name": "Grav",
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
@@ -4103,10 +4081,34 @@
 			"type": 1,
 			"title": "Nginx",
 			"name": "Nginx",
+			"note": "Official build of Nginx.",
+			"description": "High performance web server",
+			"categories": [
+				"webserver"
+			],
+			"platform": "linux",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/nginx.png",
+			"image": "nginx:latest",
+			"ports": [
+				"80/tcp",
+				"443/tcp"
+			],
+			"volumes": [{
+					"container": "/etc/nginx"
+				},
+				{
+					"container": "/usr/share/nginx/html"
+				}
+			]
+		},
+		{
+			"type": 1,
+			"title": "Nginx",
+			"name": "Nginx",
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Nginx is a simple webserver with php support. The config files reside in `` for easy user customization.",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/nginx.png",
 			"image": "linuxserver/nginx:latest",
 			"env": [
 				{
@@ -4896,7 +4898,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. has always been a top priority. Straightforward design and bulk actions mean getting things done faster.",
 			"platform": "linux",
-			"logo": "http://the-gadgeteer.com/wp-content/uploads/2015/10/plex-logo-e1446990678679.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/plex-icon.png",
 			"image": "linuxserver/plex:latest",
 			"network": "host",
 			"env": [
