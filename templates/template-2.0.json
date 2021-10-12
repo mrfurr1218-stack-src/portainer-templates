@@ -825,7 +825,7 @@
 				"Development"
 			],
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/vscode-icon.png",
 			"image": "linuxserver/code-server:latest",
 			"env": [
 				{
