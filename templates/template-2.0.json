@@ -5853,7 +5853,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution, merging manufacturer provided S.M.A.R.T metrics with real-world failure rates from Backblaze.",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/AnalogJ/scrutiny/master/docs/dashboard.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/scrutiny.png",
 			"image": "linuxserver/scrutiny:latest",
 			"env": [
 				{
