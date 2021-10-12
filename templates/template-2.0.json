@@ -3658,6 +3658,56 @@
 			"restart_policy": "unless-stopped"
 		},
 		{
+			"categories": [
+				"Music",
+				"Other",
+				"Tools"
+			],
+			"description": " MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.",
+			"env": [
+				{
+					"label": "BRAINZCODE",
+					"name": "BRAINZCODE",
+					"set": ""
+				},
+				{
+					"default": "1000",
+					"label": "PUID",
+					"name": "PUID"
+				},
+				{
+					"default": "1000",
+					"label": "PGID",
+					"name": "PGID"
+				},
+				{
+				        "default": "America/Chicago",
+				        "label": "TZ",
+				        "name": "TZ"
+				}
+			],
+			"image": "linuxserver/musicbrainz:latest",
+			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/musicbrainz-icon.png",
+			"name": "musicbrainz",
+			"platform": "linux",
+			"ports": [
+				"5000:5000/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "MusicBrainz",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/srv/shared/appdata/musicbrainz",
+					"container": "/config"
+				},
+				{
+					"bind": "/srv/shared/media/musicbrainz",
+					"container": "/data"
+				}
+			]
+		},
+		{
 			"type": 1,
 			"title": "Muximux",
 			"name": "Muximux",
