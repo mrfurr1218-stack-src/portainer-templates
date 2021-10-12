@@ -236,6 +236,9 @@
 				{
 					"label": "TZ",
 					"name": "TZ"
+					"default": "America/Chicago",
+					"description": "Specify a timezone to use for example America/Chicago"
+
 				}
 			],			
 			"restart_policy": "unless-stopped",
