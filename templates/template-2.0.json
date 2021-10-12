@@ -217,6 +217,25 @@
 		},
 		{
 			"type": 1,
+			"title": "Authelia",
+			"name": "Authelia",
+			"image": "authelia/authelia:latest",
+			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/authelia.png",
+			"note": "Requires a configuration.yml file in order to work. Documentation is Available \u003ca href='https://docs.authelia.com/deployment/deployment-ha'\u003ehere\u003c/a\u003e.",
+			"platform": "linux",
+			"ports": [
+				"9091:9091/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"volumes": [
+				{
+					"bind": "/appdata/authelia",
+					"container": "/etc/authelia/"
+				}
+			]
+		},
+		{
+			"type": 1,
 			"title": "Babybuddy",
 			"name": "Babybuddy",
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
