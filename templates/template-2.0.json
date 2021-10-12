@@ -6856,7 +6856,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "WireGuard® and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.",
 			"platform": "linux",
-			"logo": "https://www.wireguard.com/img/wireguard.svg",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/wireguard-red.png",
 			"image": "linuxserver/wireguard:latest",
 			"env": [
 				{
