@@ -4795,7 +4795,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Piwigo is a photo gallery software for the web that comes with powerful features to publish and manage your collection of pictures.",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/piwigo-icon.png",
 			"image": "linuxserver/piwigo:latest",
 			"env": [
 				{
