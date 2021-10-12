@@ -5046,7 +5046,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "Pydio-cells is the nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using the Go language following a micro-service architecture.",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/wiki/pydio/cells/images/PydioCellsColor.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/pydio-icon.png",
 			"image": "linuxserver/pydio-cells:latest",
 			"env": [
 				{
