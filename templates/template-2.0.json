@@ -6379,7 +6379,7 @@
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p></p>",
 			"description": "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.",
 			"platform": "linux",
-			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sqlitebrowser-banner.png",
+			"logo": "https://raw.githubusercontent.com/mrfurr1218-stack-src/portainer-templates/main/images/sqlite-icon.png",
 			"image": "linuxserver/sqlitebrowser:latest",
 			"env": [
 				{
