@@ -4467,6 +4467,46 @@
 			"restart_policy": "unless-stopped"
 		},
 		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
+			"description": "Organizr allows you to setup Tabs that will be loaded all in one webpage. You can then work on your server with ease.",
+			"env": [
+				{
+					"default": "1000",
+					"label": "PUID",
+					"name": "PUID"
+				},
+				{
+					"default": "America/Chicago",
+					"label": "TZ",
+					"name": "TZ"
+				},
+				{
+					"default": "1000",
+					"label": "PGID",
+					"name": "PGID"
+				}
+			],
+			"image": "organizrtools/organizr-v2:php-fpm",
+			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/organizr-icon.png",
+			"name": "organizr-v2",
+			"platform": "linux",
+			"ports": [
+				"80/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "Organizr v2",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/appdata/organizr",
+					"container": "/config"
+				}
+			]
+		},
+		{			
 			"type": 1,
 			"title": "Ombi",
 			"name": "Ombi",
@@ -6186,6 +6226,30 @@
 			}
 			],
 			"restart_policy": "unless-stopped"
+		},
+		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
+			"description": "Self-hosted snippet manager.",
+			"image": "snowmean/snibox-sqlite:latest",
+			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/snibox.png",
+			"name": "snibox",
+			"note": "Label-oriented interface with search. Supports various programming languages, markdown, plain text.",
+			"platform": "linux",
+			"ports": [
+				"3010:3000/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "Snibox",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/appdata/snibox",
+					"container": "/app/db/database"
+				}
+			]
 		},
 		{
 			"type": 1,
